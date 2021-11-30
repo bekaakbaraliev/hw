@@ -1,0 +1,18 @@
+.List {
+    width: 800px;
+    background-color: crimson;
+    margin-left: 300px;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 12px;
+    color: chartreuse;
+}
+.List:hover {
+    background-color: rgb(255, 66, 104);
+    color: rgb(255, 225, 94);
+
+}
+.List:active {
+    background-color: rgb(158, 46, 192);
+    color: rgb(61, 207, 175);
+}

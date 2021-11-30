@@ -1,0 +1,32 @@
+.form {
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 112, 112);
+}
+.inputText{
+    height: 30px;
+    border-radius: 12px;
+    margin-right: 10px;
+    background-color: slateblue;
+    color: yellow;
+}
+.inputText::placeholder {
+    color: yellow;
+    text-align: center;
+}
+.inputDate{
+    height: 30px;
+    border-radius: 12px;
+    background-color: rgb(253, 253, 116);
+    color: slateblue;
+}
+.btnAgree {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: violet;
+    margin-left: 10px;
+}
