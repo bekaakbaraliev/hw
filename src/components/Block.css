@@ -1,0 +1,67 @@
+.Block {
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 0px 50px 50px 50px;
+    background-color:blanchedalmond;
+    text-align: center;
+    border-radius: 30px;
+}
+.Block:hover {
+    background-color:rgb(214, 50, 50);
+    transition: 1.5s;
+}
+.BoxForTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+    background-color: brown;
+    border-radius: 31px;
+    border-color: crimson;
+}
+.BoxForTitle:hover{
+    background-color: rgb(42, 157, 165);
+}
+.Title {
+    font-size: 30px;
+    color: violet;
+    font-weight: bolder;
+}
+.Title:hover {
+    color: rgb(182, 111, 182);
+}
+.BoxForId {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: darksalmon;
+    color: white;
+    font-weight: bolder;
+}
+.BoxForId:hover {
+    color: rgb(231, 16, 16);
+    background-color: rgb(243, 219, 211);
+    transition: 1.5s;
+}
+.Text {
+    width: 200px;
+    height: 70px;
+    padding: 10px 50px 50px 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 255, 106);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(218, 100, 100);
+}
+.Text:hover {
+    color: rgb(224, 191, 0);
+    background-color: rgb(102, 100, 218);
+    transition: 1.5s;
+}
+.images {
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: darkorange;
+}
