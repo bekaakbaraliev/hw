@@ -1,0 +1,18 @@
+.btnCancel {
+    font: inherit;
+    border: 1px solid #5f1300;
+    background: #5f1300;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.btnCancel:hover, .btnCancel:active {
+    background: #bd1b1b;
+    border-color:  #bd1b1b;
+    transition: 1.5s;
+}
+
+.btnCancel:focus {
+    outline: none;}
